@@ -5,156 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APLUS - The best fitness gym in the town</title>
+    <title>APLUS Fitness | Transform Your Body in Varanasi</title>
+    <meta name="description" content="Join Varanasi's premier fitness center. APLUS Fitness offers state-of-the-art equipment, expert trainers, and a motivating community to help you achieve your goals.">
+    
     <link rel="stylesheet" href="style.css">
-    <script src="timer.js"></script>
-    <link rel="stylesheet" href="utility.css">
+    <script src="timer.js" defer></script> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body class='overflow-x-hidden'>
-    <div class="container mx-auto">
+<body>
+    <div class="container">
         <header>
-            <nav class="flex justify-between">
-                <div class="logo font-bold flex items-center text-blue">APLUSFitness</div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
-                    <li><button class="btn">Join Now</button></li>
+            <nav>
+                <div class="logo">APLUS<span>Fitness</span></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#" class="btn">Join Now</a></li>
                 </ul>
             </nav>
-            <hr>
         </header>
-        <main class="min-h-screen">
-            <section class="section1">
-                <div class="flex">
-                    <div class="topleft flex flex-col justify-center px-2">
-                        <div class=" text-center">
-                            <img class="dumbellimg" src="dumbell.png" alt="">
+
+        <main>
+            <section class="section1 hero">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <!-- <img class="dumbellimg" src="dumbell.png" alt="Dumbbell Icon"> -->
+                        <h1>Transform Your Fitness at Jaunpur's Premium Gym</h1>
+                        <p>
+                            With our state-of-the-art equipment, certified trainers, and a supportive community, you have everything you need to achieve greatness.
+                        </p>
+                        <p class="deal">Monsoon Offer: Get 20% Off Annual Plans! Ends in <span id="demo">4d 5h 21m</span></p>
+                        <div class="buttons">
+                            <button class="btn btn-primary">Become a Member</button>
+                            <button class="btn btn-secondary">Book a Free Tour</button>
                         </div>
-                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
-                        <p class=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-                            error corporis fugit dolore adipisci aperiam omnis nisi dolores hic eius in ex id iure, ea
-                            sunt asperiores et voluptatibus dignissimos autem maiores molestias dolor rem delectus
-                            quidem! Inventore.</p>
-                            <!-- Display the countdown timer in an element -->
-                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
-                            <div class="buttons">
-                                <button class="btn">Join now</button>
-                                <button class="btn">Contact Us</button>
-                            </div>
                     </div>
-                    <div class="topright flex justify-center">
-                        <img class="gymimg" src="https://png.pngtree.com/png-clipart/20241231/original/pngtree-muscular-bodybuilder-showcasing-a-highly-defined-physique-isolated-on-white-background-png-image_18423220.png" alt="">
+                    <div class="hero-image">
+                        <img class="gymimg" src="https://png.pngtree.com/png-clipart/20241231/original/pngtree-muscular-bodybuilder-showcasing-a-highly-defined-physique-isolated-on-white-background-png-image_18423220.png" alt="Fit athlete at APLUS Fitness">
                     </div>
                 </div>
             </section>
+
             <hr>
+
             <section class="section2">
-                <h1 class="text-center my-2">Pricing</h1>
-                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis provident
-                    suscipit temporibus modi voluptatem. Assumenda aspernatur ad nihil quasi expedita eligendi atque?
-                    Dolorum eum deserunt dicta iste beatae commodi, doloribus expedita hic recusandae, tempora illum
-                    consequuntur? Necessitatibus voluptate animi repellendus reiciendis!</p>
-                <div class="boxes flex justify-center">
+                <h1 class="section-title">Our Membership Plans</h1>
+                <p>Choose the plan that's right for you. All plans come with full support.</p>
+                <div class="boxes">
                     <div class="box">
-                        <h2>Free</h2>
+                        <h2>Monthly Flex</h2>
                         <ul>
-                            <li class="highlighted">₹0/month</li>
-                            <li>0 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                            <li><button class="btn">Signup Now</button></li>
+                            <li class="highlighted">₹999/month</li>
+                            <li>Full Gym Floor Access</li>
+                            <li>Standard Group Classes</li>
+                            <li>Locker Room & Showers</li>
+                            <li>Flexible Monthly Billing</li>
+                            <li><button class="btn btn-secondary">Get Started</button></li>
+                        </ul>
+                    </div>
+                    <div class="box recommended">
+                        <span class="popular-badge">POPULAR</span>
+                        <h2>Quarterly Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹2,499/quarter <small>(Save 15%)</small></li>
+                            <li>Everything in Monthly Flex</li>
+                            <li>+ Access to Premium Classes (Yoga, Zumba)</li>
+                            <li>+ 4 Guest Passes</li>
+                            <li>+ Basic Nutrition Guide</li>
+                            <li><button class="btn btn-primary">Choose Plan</button></li>
                         </ul>
                     </div>
                     <div class="box">
-                        <h2>Pro</h2>
+                        <h2>Annual Elite</h2>
                         <ul>
-                            <li class="highlighted">₹150/month</li>
-                            <li>0 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                            <li><button class="btn">Signup Now</button></li>
+                            <li class="highlighted">₹8,999/year <small>(Save 25%)</small></li>
+                            <li>Everything in Quarterly Pro</li>
+                            <li>+ 12 Personal Trainer Sessions</li>
+                            <li>+ Custom Nutrition Plan</li>
+                            <li>+ 24/7 Keycard Access</li>
+                            <li><button class="btn btn-secondary">Best Value</button></li>
                         </ul>
                     </div>
-                    <div class="box">
-                        <h2>Enterprise</h2>
-                        <ul>
-                            <li class="highlighted">₹500/month</li>
-                            <li>0 users included</li>
-                            <li>2 GB of storage</li>
-                            <li>Email support</li>
-                            <li>Help center access</li>
-                            <li><button class="btn">Signup Now</button></li>
-                        </ul>
-                    </div>
-
                 </div>
             </section>
-            <hr>
-            <section class="section3">
-                <h1 class="text-center my-2">Compare Plans</h1>
-                <div class="container plantable">
-                    <table class="table text-center">
-                      <thead>
-                        <tr>
-                          <th></th><th>Free</th>
-                          <th>Pro</th>
-                          <th>Enterprise</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Public</th>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Private</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                      </tbody>
-              
-                      <tbody>
-                        <tr>
-                          <th scope="row" class="text-start">Permissions</th>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Sharing</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Unlimited members</th>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                          <td>Yes</svg></td>
-                        </tr>
-                        <tr>
-                          <th scope="row" class="text-start">Extra security</th>
-                          <td>-</td>
-                          <td>-</td>
-                          <td>Yes</svg></td>
-                        </tr>
-                      </tbody>
-                    </table>
-            </section>
-            <hr>
-        </main>
-        <footer>
-            Copyright &copy; APLUSFitness.com | All rights reserved
-        </footer>
 
+            <hr>
+
+            <section class="section3">
+                <h1 class="section-title">Compare Plans</h1>
+                <div class="plantable">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Monthly Flex</th>
+                                <th>Quarterly Pro</th>
+                                <th>Annual Elite</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Full Gym Floor Access</th>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Standard Group Classes</th>
+                                <td>✓</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Premium Classes (Yoga, Zumba)</th>
+                                <td>✗</td>
+                                <td>✓</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Guest Passes</th>
+                                <td>✗</td>
+                                <td>4 per Quarter</td>
+                                <td>2 per Month</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Personal Trainer Sessions</th>
+                                <td>✗</td>
+                                <td>✗</td>
+                                <td>12 per Year</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Custom Nutrition Plan</th>
+                                <td>✗</td>
+                                <td>✗</td>
+                                <td>✓</td>
+                            </tr>
+                             <tr>
+                                <th scope="row">24/7 Keycard Access</th>
+                                <td>✗</td>
+                                <td>✗</td>
+                                <td>✓</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <section class="contact-info">
+             <div class="info-block">
+                <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+                <p>123 Fitness Road, Mariahu<br>Jaunpur, Uttar Pradesh 222137</p>
+                <a href="#">Get Directions</a>
+             </div>
+             <div class="info-block">
+                <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                <p>Mon - Sat: 5:00 AM - 11:00 PM<br>Sunday: 7:00 AM - 8:00 PM</p>
+             </div>
+             <div class="info-block">
+                <h3><i class="fas fa-phone"></i> Contact Us</h3>
+                <p>Call: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+             </div>
+        </section>
+
+        <footer>
+            Copyright &copy; 2025 APLUSFitness.com | All Rights Reserved
+        </footer>
     </div>
 </body>
 
